@@ -1,0 +1,36 @@
+footer {
+  font-family: "Meera Inimai", sans-serif;
+  width: 100%;
+  background-color: darkgreen;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  div {
+    justify-content: space-between;
+    display: flex;
+    width: 950px;
+    .left-side-footer {
+      flex: 1;
+    }
+    .right-side-footer {
+      flex: 1;
+      justify-content: flex-end;
+      .email:hover {
+        color: black;
+      }
+      .linked:hover {
+        color: blue;
+      }
+      .github:hover {
+        color: purple;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        margin: 0 5px;
+      }
+    }
+  }
+}

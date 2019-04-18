@@ -1,0 +1,87 @@
+.project-container {
+  font-family: "Meera Inimai", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+  line-height: 1.5em;
+  div {
+    display: flex;
+    justify-content: flex-start;
+    width: 950px;
+    .left-projects {
+      align-items: flex-start;
+      justify-content: flex-end;
+      flex: 1;
+      padding-right: 50px;
+      h2 {
+        font-size: 20px;
+        font-weight: bold;
+        color: darkgreen;
+      }
+    }
+    .right-projects {
+      width: 100%;
+      flex-wrap: wrap;
+      flex: 4;
+      .project-image {
+        margin: 5px;
+        width: 230px;
+        height: 150px;
+        position: relative;
+        overflow: hidden;
+        &:hover .project-overlay {
+          opacity: 1;
+        }
+        .project-overlay {
+          background: rgba(0, 0, 0, 0.7);
+          position: absolute;
+          width: 230px;
+          height: 150px;
+          top: 0;
+          opacity: 0;
+          transition: all 0.4s ease-in-out 0s;
+        }
+        img {
+          width: 230px;
+          height: 150px;
+          object-fit: cover;
+          max-width: 100%;
+          // z-index: 1;
+        }
+        &:hover .project-details {
+          top: 50%;
+          left: 50%;
+          opacity: 1;
+        }
+      }
+      .project-details {
+        flex-direction: column;
+        position: absolute;
+        text-align: center;
+        width: 225px;
+        top: 50%;
+        left: 50%;
+        opacity: 0;
+        transform: translate(-50%, -50%);
+        transition: all 0.3s ease-in-out 0s;
+        h5 {
+          font-size: 20px;
+          color: white;
+          font-weight: bold;
+          letter-spacing: 0.15em;
+          margin-bottom: 0.5em;
+          text-transform: uppercase;
+        }
+        p {
+          text-decoration: none;
+          color: white;
+          font-size: 15px;
+          &p:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

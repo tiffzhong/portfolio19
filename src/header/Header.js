@@ -14,30 +14,41 @@ const Header = props => {
             <p>Full Stack Software Engineer</p>
             <div className="city-location">
               <i class="fas fa-map-marker-alt" />
-              South San Francisco, CA
+              <p>South San Francisco, CA</p>
             </div>
           </div>
         </div>
 
         <div className="links-container">
           <div>
-            {" "}
-            <a href="https://github.com/tiffzhong" alt="github" target="_blank">
+            <a
+              className="github"
+              href="https://github.com/tiffzhong"
+              alt="github"
+              target="_blank"
+            >
               <i class="fab fa-github" />
             </a>
             <a
+              className="linked"
               href="https://www.linkedin.com/in/tiffanyzhong/"
               alt="linked"
               target="_blank"
             >
               <i class="fab fa-linkedin-in" />
             </a>
-            <a href="mailto:tiffzhong@gmail.com" alt="email" target="_blank">
+            <a
+              className="email"
+              href="mailto:tiffzhong@gmail.com"
+              alt="email"
+              target="_blank"
+            >
               <i class="far fa-envelope" />
             </a>
           </div>
           <div>
             <a
+              className="twitter"
               href="https://twitter.com/pizzatiff"
               alt="twitter"
               target="_blank"
@@ -45,6 +56,7 @@ const Header = props => {
               <i class="fab fa-twitter" />
             </a>
             <a
+              className="medium"
               href="https://medium.com/@pizzatiff"
               alt="medium"
               target="_blank"
@@ -52,6 +64,7 @@ const Header = props => {
               <i class="fab fa-medium-m" />
             </a>
             <a
+              className="youtube"
               href="https://www.youtube.com/user/naffity/"
               alt="youtube"
               target="_blank"

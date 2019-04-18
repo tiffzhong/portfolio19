@@ -1,4 +1,4 @@
-.about-container {
+.experience-container {
   font-family: "Meera Inimai", sans-serif;
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     width: 950px;
-    .left-about {
+    .left-experience {
       align-items: flex-start;
       justify-content: flex-end;
       flex: 1;
@@ -20,7 +20,7 @@
         color: darkgreen;
       }
     }
-    .right-about {
+    .right-experience {
       flex: 4;
     }
   }
