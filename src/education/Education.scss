@@ -5,10 +5,12 @@
   justify-content: center;
   margin: 20px 0px;
   line-height: 1.5em;
+  width: 100%;
   div {
     display: flex;
     justify-content: center;
     width: 950px;
+
     .left-education {
       align-items: flex-start;
       justify-content: flex-end;
@@ -21,7 +23,16 @@
       }
     }
     .right-education {
+      width: 1px;
       flex: 4;
+      flex-direction: column;
+      .subheading {
+        justify-content: flex-start;
+        flex-direction: row;
+      }
+      .subheading-2 {
+        justify-content: space-evenly;
+      }
     }
   }
 }
