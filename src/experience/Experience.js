@@ -10,7 +10,10 @@ const Experience = () => {
         </div>
 
         <div className="right-experience">
-          <img src="" />
+          <div className="yelp">
+            <h4>Yelp, Inc.</h4> - <p>San Francisco, CA</p>
+            <p>Facilities Coordinator</p>
+          </div>
         </div>
       </div>
     </div>

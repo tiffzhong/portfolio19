@@ -17,8 +17,8 @@ class App extends Component {
         <Projects />
         {routes}
         <TechSkills />
-        <Experience />
         <Education />
+        <Experience />
         <Footer />
       </div>
     );

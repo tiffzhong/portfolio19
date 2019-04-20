@@ -4,9 +4,6 @@ const Footer = () => {
   return (
     <footer>
       <div>
-        <div className="left-side-footer">
-          Have a good one! | Tiffany Zhong 2019
-        </div>
         <div className="right-side-footer">
           <a
             className="email"
@@ -34,6 +31,9 @@ const Footer = () => {
           >
             GitHub
           </a>
+        </div>
+        <div className="left-side-footer">
+          Have a good one! | Tiffany Zhong 2019
         </div>
       </div>
     </footer>

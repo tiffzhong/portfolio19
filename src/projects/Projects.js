@@ -1,6 +1,10 @@
 import React from "react";
 import "./Projects.scss";
 import carry from "../images/carry.png";
+import tr from "../images/tr.png";
+import tob from "../images/TOB.png";
+import bread from "../images/sf.png";
+import tpt from "../images/tpt.png";
 const Projects = () => {
   return (
     <div className="project-container">
@@ -24,7 +28,7 @@ const Projects = () => {
 
           <div className="project-image">
             <div className="project-overlay" />
-            <img src={carry} alt="carryon" />
+            <img src={tr} alt="carryon" />
             <div className="project-details">
               <h5>Task Rabbit Clone</h5>
               <p>Full Stack</p>
@@ -35,7 +39,7 @@ const Projects = () => {
 
           <div className="project-image">
             <div className="project-overlay" />
-            <img src={carry} alt="carryon" />
+            <img src={bread} alt="carryon" />
             <div className="project-details">
               <h5>Sour Flour</h5>
               <p>Front End</p>
@@ -46,7 +50,7 @@ const Projects = () => {
 
           <div className="project-image">
             <div className="project-overlay" />
-            <img src={carry} alt="carryon" />
+            <img src={tob} alt="carryon" />
             <div className="project-details">
               <h5>Taste of Burma</h5>
               <p>Front End</p>
@@ -57,7 +61,7 @@ const Projects = () => {
 
           <div className="project-image">
             <div className="project-overlay" />
-            <img src={carry} alt="carryon" />
+            <img src={tpt} alt="carryon" />
             <div className="project-details">
               <h5>The Purple Tulip</h5>
               <p>Front End</p>

@@ -22,6 +22,10 @@
     }
     .right-experience {
       flex: 4;
+      h4 {
+        font-weight: bold;
+        color: darkgreen;
+      }
     }
   }
 }

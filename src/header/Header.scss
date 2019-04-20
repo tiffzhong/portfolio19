@@ -6,8 +6,12 @@
   width: 100%;
   background-color: lightgray;
   height: 200px;
-
+  background: url("../images/pata.jpg");
   border-bottom: 10px solid darkgreen;
+  object-fit: cover;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
   .content-container {
     display: flex;
     justify-content: space-between;
