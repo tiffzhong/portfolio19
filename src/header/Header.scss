@@ -7,7 +7,6 @@
   background-color: lightgray;
   height: 25%;
   background: url("../images/bg.jpg");
-
   border-bottom: 10px solid #4559ff;
   object-fit: cover;
   overflow: hidden;
@@ -16,7 +15,7 @@
   .content-container {
     display: flex;
     justify-content: space-between;
-    // align-items: center;
+
     flex-direction: row;
     // width: 950px;
     width: 95%;
@@ -80,7 +79,7 @@
       flex-direction: column;
       align-self: flex-end;
       justify-content: center;
-      width: 100%;
+      // width: 100%;
       .linked:hover {
         color: blue;
       }
@@ -287,11 +286,6 @@
         .name-container {
           h1 {
             font-size: 30px;
-            color: #6514ff;
-          }
-          p {
-            font-size: 16px;
-            color: white;
           }
         }
         .city-location {
