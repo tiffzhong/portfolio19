@@ -16,8 +16,8 @@ const About = () => {
             well designed, clean, responsive, and scalable code. <br />A quick
             learner, self starter, innovative, and creative. I have a love for
             mountains, music, and movies. When I'm not coding you can find me
-            watching movies, running, lifting at the gym, traveling, hiking, or
-            taking pictures of my cat.
+            lifting at the gym, running, traveling, binging Netflix, or taking
+            pictures of my cat.
           </p>
         </div>
       </div>
