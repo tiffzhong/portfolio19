@@ -10,43 +10,55 @@ const Education = () => {
         </div>
 
         <div className="right-education">
-          <section>
-            <div className="subheading">
-              <h4>DevMountain</h4> - <p>Phoenix, AZ</p>
+          <div className="subheading">
+            <div>
+              <h4>DevMountain</h4> -<p>Phoenix, AZ</p>
             </div>
-            <div className="subheading-2">
-              <h6>Web Development</h6>
+            <div>
+              <h6>11/2018 - 02/2019</h6>
             </div>
+          </div>
+          <div className="subheading-2">
+            <h5>Web Development</h5>
+          </div>
+          <div className="subheading-3">
             <p>
               12 Week Immersive Full Stack Web Development & Software
               Engineering Program
             </p>
-          </section>
-
-          <section>
-            <div className="subheading">
+          </div>
+          <div className="subheading">
+            <div>
               <h4>San Jose State University</h4> - <p>San Jose, CA</p>
-              <p>August 2011 - May 2015</p>
             </div>
-            <div className="subheading-2">
-              <h6>
-                B.S. in Health Science, Health Service Administration; Minor:
-                Business
-              </h6>
+            <div>
+              <h6>08/2011 - 05/2015</h6>
             </div>
+          </div>
+          <div className="subheading-2">
+            <h5>
+              B.S. in Health Science, Health Service Administration; Minor:
+              Business
+            </h5>
+          </div>
+          <div className="subheading-3">
             <p>GPA: 3.75</p>
-          </section>
+          </div>
 
-          <section>
-            <div className="subheading">
+          <div className="subheading">
+            <div>
               <h4>Edinburgh Napier University</h4> - <p>Edinburgh, UK</p>
-              <p>August 2013 - January 2014</p>
             </div>
-            <div className="subheading-2">
-              <h6>Study Abroad, Bilateral Program</h6>
+            <div>
+              <h6>08/2013 - 01/2014</h6>
             </div>
+          </div>
+          <div className="subheading-2">
+            <h5>Study Abroad, Bilateral Program</h5>
+          </div>
+          <div className="subheading-3">
             <p>Course Focus: Business Marketing</p>
-          </section>
+          </div>
         </div>
       </div>
     </div>

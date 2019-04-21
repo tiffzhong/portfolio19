@@ -5,16 +5,19 @@
   justify-content: center;
   line-height: 1.5em;
   max-width: 1000px;
-  width: 95%;
+  width: 90%;
   margin: 20px auto;
+  padding: 10px 0px 20px 0px;
+  border-bottom: 1px solid darkblue;
   div {
+    width: 100%;
     display: flex;
     justify-content: center;
     .left-techskills {
+      width: 160px;
       align-items: flex-start;
       justify-content: flex-end;
       padding-right: 20px;
-      width: 160px;
       h2 {
         font-size: 20px;
         font-weight: bold;
@@ -22,19 +25,25 @@
       }
     }
     .right-techskills {
-      article {
+      // width: 800px;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: row;
+      div {
         display: flex;
         flex-direction: column;
-        padding-right: 150px;
-        h4 {
-          font-size: 18px;
-          font-weight: bold;
-          color: darkgreen;
-        }
-        li {
-          margin: 5px 0;
-          font-size: 19px;
-        }
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      h4 {
+        font-size: 18px;
+        font-weight: bold;
+        color: darkgreen;
+      }
+      p {
+        align-items: flex-start;
+        margin: 5px 0;
+        font-size: 19px;
       }
     }
   }

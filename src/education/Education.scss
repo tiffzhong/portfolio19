@@ -5,17 +5,22 @@
   justify-content: center;
   margin: 20px 0px;
   line-height: 1.5em;
-  width: 100%;
+  max-width: 1000px;
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px 0px 20px 0px;
+  border-bottom: 1px solid darkblue;
   div {
     display: flex;
     justify-content: center;
-    width: 950px;
-
+    width: 100%;
+    font-size: 18px;
+    // margin: 5px 0;
     .left-education {
+      width: 160px;
       align-items: flex-start;
       justify-content: flex-end;
-      flex: 1;
-      padding-right: 50px;
+      padding-right: 20px;
       h2 {
         font-size: 20px;
         font-weight: bold;
@@ -23,15 +28,35 @@
       }
     }
     .right-education {
-      width: 1px;
-      flex: 4;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
       flex-direction: column;
       .subheading {
-        justify-content: flex-start;
-        flex-direction: row;
+        div {
+          justify-content: flex-start;
+          flex-direction: row;
+          h4 {
+            color: darkgreen;
+            margin-right: 3px;
+          }
+          p {
+            margin-left: 3px;
+          }
+          h6 {
+            padding-left: 70px;
+          }
+        }
       }
       .subheading-2 {
-        justify-content: space-evenly;
+        justify-content: flex-start;
+        h5 {
+          font-style: italic;
+        }
+      }
+      .subheading-3 {
+        justify-content: flex-start;
+        margin-bottom: 20px;
       }
     }
   }

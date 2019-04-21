@@ -15,10 +15,11 @@ class App extends Component {
         <Header />
         <About />
         <Projects />
-        {routes}
+
         <TechSkills />
         <Education />
         <Experience />
+        {routes}
         <Footer />
       </div>
     );

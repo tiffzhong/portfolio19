@@ -10,10 +10,19 @@ const Experience = () => {
         </div>
 
         <div className="right-experience">
-          <section>
-            <h4>Yelp, Inc.</h4> - <p>San Francisco, CA</p>
+          <div className="subheading">
+            <div>
+              <h4>Yelp, Inc.</h4> - <p>San Francisco, CA</p>
+            </div>
+            <div>
+              <h6>02/2016 - 05/2018</h6>
+            </div>
+          </div>
+
+          <div className="subheading-2">
             <p>Facilities Coordinator</p>
-            <h6>February 2016 - May 2018</h6>
+          </div>
+          <div>
             <ul>
               <li>
                 • Handled the Ergonomics program by creating a new policy,
@@ -26,7 +35,7 @@ const Experience = () => {
                 15+ trouble tickets weekly
               </li>
             </ul>
-          </section>
+          </div>
         </div>
       </div>
     </div>

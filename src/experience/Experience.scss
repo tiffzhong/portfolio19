@@ -3,17 +3,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0px;
+  max-width: 1000px;
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px 0px 20px 0px;
   line-height: 1.5em;
+
   div {
     display: flex;
     justify-content: center;
-    width: 950px;
+    width: 100%;
     .left-experience {
+      width: 160px;
       align-items: flex-start;
       justify-content: flex-end;
-      flex: 1;
-      padding-right: 50px;
+
+      padding-right: 20px;
       h2 {
         font-size: 20px;
         font-weight: bold;
@@ -21,10 +26,31 @@
       }
     }
     .right-experience {
-      flex: 4;
-      h4 {
-        font-weight: bold;
-        color: darkgreen;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      font-size: 18px;
+      .subheading {
+        div {
+          justify-content: flex-start;
+          h4 {
+            font-weight: bold;
+            color: darkgreen;
+            margin-right: 3px;
+          }
+          p {
+            margin-left: 3px;
+          }
+          h6 {
+            padding-left: 70px;
+          }
+        }
+      }
+      .subheading-2 {
+        justify-content: flex-start;
+        p {
+          font-style: italic;
+        }
       }
     }
   }
