@@ -3,17 +3,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0px;
+  max-width: 1000px;
+  width: 95%;
+  margin: 20px auto;
   line-height: 1.5em;
   div {
     display: flex;
     justify-content: flex-start;
-    width: 950px;
     .left-projects {
+      width: 160px;
       align-items: flex-start;
       justify-content: flex-end;
-      flex: 1;
-      padding-right: 50px;
+      padding-right: 20px;
       h2 {
         font-size: 20px;
         font-weight: bold;
@@ -23,7 +24,7 @@
     .right-projects {
       width: 100%;
       flex-wrap: wrap;
-      flex: 4;
+
       .project-image {
         margin: 5px;
         width: 230px;

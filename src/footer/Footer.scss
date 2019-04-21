@@ -49,3 +49,36 @@ footer {
     }
   }
 }
+
+@media (max-width: 1300px) {
+  footer {
+    background: url("../images/mag2.png");
+    background-position: left;
+    overflow: hidden;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 800px) {
+  footer {
+    background: url("../images/magup.png");
+    background-position: center -60px;
+    overflow: hidden;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 400px) {
+  footer {
+    background: url("../images/magflip.png");
+    background-position: center 50px;
+    overflow: hidden;
+    background-size: contain;
+    position: absolute;
+    background-repeat: no-repeat;
+  }
+}

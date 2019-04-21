@@ -10,7 +10,7 @@ const TechSkills = () => {
         </div>
 
         <div className="right-techskills">
-          <div className="front-end">
+          <article>
             <h4>Front-End</h4>
             <ul>
               <li>Javascript</li>
@@ -21,8 +21,8 @@ const TechSkills = () => {
               <li>HTML5</li>
               <li>Responsive Design</li>
             </ul>
-          </div>
-          <div className="back-end">
+          </article>
+          <article>
             <h4>Back-End</h4>
             <ul>
               <li>Node.js</li>
@@ -34,8 +34,8 @@ const TechSkills = () => {
               <li>git</li>
               <li>Jest/Sinon</li>
             </ul>
-          </div>
-          <div className="misc">
+          </article>
+          <article>
             <h4>Design</h4>
             <ul>
               <li>Adobe XD</li>
@@ -49,7 +49,7 @@ const TechSkills = () => {
               <li>JIRA</li>
               <li>IDE: VS Code</li>
             </ul>
-          </div>
+          </article>
         </div>
       </div>
     </div>

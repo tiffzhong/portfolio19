@@ -3,19 +3,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px 0px;
   line-height: 1.5em;
+  max-width: 1000px;
+  width: 95%;
+  margin: 20px auto;
   div {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 0;
-    width: 950px;
+    justify-content: center;
     .left-techskills {
       align-items: flex-start;
       justify-content: flex-end;
-      flex: 1;
-      padding-right: 50px;
+      padding-right: 20px;
+      width: 160px;
       h2 {
         font-size: 20px;
         font-weight: bold;
@@ -23,19 +22,19 @@
       }
     }
     .right-techskills {
-      flex: 4;
-      width: 1px;
-      h4 {
-        color: darkgreen;
-      }
-      .front-end {
+      article {
+        display: flex;
         flex-direction: column;
-      }
-      .back-end {
-        flex-direction: column;
-      }
-      .misc {
-        flex-direction: column;
+        padding-right: 150px;
+        h4 {
+          font-size: 18px;
+          font-weight: bold;
+          color: darkgreen;
+        }
+        li {
+          margin: 5px 0;
+          font-size: 19px;
+        }
       }
     }
   }

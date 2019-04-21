@@ -13,12 +13,11 @@ const About = () => {
           <p>
             Born and raised in the Bay Area, SJSU graduate, and self-taught
             programmer. Strong interest in full-stack development focusing on
-            well designed, clean, responsive, and scalable code. A quick
+            well designed, clean, responsive, and scalable code. <br />A quick
             learner, self starter, innovative, and creative. I am a lover of
-            mountains, cats, and movies. I enjoy living a well-balanced
-            lifestyle, raising cultural awareness, and traveling. Some of my
-            hobbies include hiking, running, movies, taking pictures of food or
-            my cat sleeping, hot yoga, and weight training at the gym.
+            mountains, music, and movies. Some of my hobbies include traveling,
+            hiking, running, watching movies, taking pictures of my cat, and
+            weight training at the gym.
           </p>
         </div>
       </div>
