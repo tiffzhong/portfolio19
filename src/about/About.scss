@@ -8,7 +8,7 @@
   width: 90%;
   margin: 20px auto;
   padding: 10px 0px 20px 0px;
-  border-bottom: 1px solid darkblue;
+  border-bottom: 1px solid #15c89c;
   div {
     display: flex;
     justify-content: center;
@@ -21,13 +21,36 @@
       h2 {
         font-size: 20px;
         font-weight: bold;
-        color: darkgreen;
+        color: #4559ff;
       }
     }
     .right-about {
       width: 100%;
       p {
         font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .about-container {
+    border-bottom: 1px solid #ff728f;
+    margin: 10px auto;
+    div {
+      flex-direction: column;
+      align-items: center;
+      .left-about {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0px;
+        h2 {
+          color: #6514ff;
+        }
+      }
+      .right-about {
+        padding-top: 10px;
       }
     }
   }

@@ -8,9 +8,10 @@
   margin: 20px auto;
   line-height: 1.5em;
   padding: 10px 0px 20px 0px;
-  border-bottom: 1px solid darkblue;
+  border-bottom: 1px solid #15c89c;
 
   div {
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     .left-projects {
@@ -21,10 +22,12 @@
       h2 {
         font-size: 20px;
         font-weight: bold;
-        color: darkgreen;
+        color: #4559ff;
       }
     }
     .right-projects {
+      display: flex;
+      justify-content: flex-start;
       width: 100%;
       flex-wrap: wrap;
 
@@ -94,26 +97,78 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 710px) {
   .project-container {
     div {
       .right-projects {
         .project-image {
-          width: 210px;
-          height: 140px;
+          width: 100%;
+          height: 250px;
           .project-overlay {
-            width: 210px;
-            height: 140px;
+            width: 100%;
+            height: 250px;
           }
           img {
-            width: 210px;
-            height: 140px;
+            width: 100%;
+            height: 250px;
           }
         }
         .project-details {
-          width: 210px;
+          width: 100%;
         }
       }
     }
   }
 }
+
+@media (max-width: 600px) {
+  .project-container {
+    border-bottom: 1px solid #ff728f;
+    width: 95%;
+    margin: 10px auto;
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .left-projects {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0px;
+        h2 {
+          color: #6514ff;
+        }
+      }
+      .right-projects {
+        padding-top: 10px;
+        flex-wrap: nowrap;
+      }
+    }
+  }
+}
+// @media (max-width: 600px) {
+//   .project-container {
+//     width: 95%;
+//     margin: 10px auto;
+//     div {
+//       .right-projects {
+//         .project-image {
+//           width: 100%;
+//           height: 220px;
+//           .project-overlay {
+//             width: 100%;
+//             height: 220px;
+//           }
+//           img {
+//             width: 100%;
+//             height: 220px;
+//           }
+//         }
+//         .project-details {
+//           width: 100%;
+//         }
+//       }
+//     }
+//   }
+// }

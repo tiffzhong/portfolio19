@@ -8,7 +8,7 @@
   width: 90%;
   margin: 20px auto;
   padding: 10px 0px 20px 0px;
-  border-bottom: 1px solid darkblue;
+  border-bottom: 1px solid #15c89c;
   div {
     width: 100%;
     display: flex;
@@ -21,7 +21,7 @@
       h2 {
         font-size: 20px;
         font-weight: bold;
-        color: darkgreen;
+        color: #4559ff;
       }
     }
     .right-techskills {
@@ -38,12 +38,45 @@
       h4 {
         font-size: 18px;
         font-weight: bold;
-        color: darkblue;
+        color: #15c89c;
       }
       p {
         align-items: flex-start;
         margin: 5px 0;
         font-size: 19px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .techskills-container {
+    // width: 95%;
+    margin: 10px auto;
+    border-bottom: 1px solid #ff728f;
+    div {
+      flex-direction: column;
+      align-items: center;
+      .left-techskills {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0px;
+        h2 {
+          color: #6514ff;
+        }
+      }
+      .right-techskills {
+        padding-top: 10px;
+        align-items: flex-start;
+        h4 {
+          font-size: 18px;
+          font-weight: bold;
+          color: #ff728f;
+        }
+        p {
+          margin: 2px 0;
+        }
       }
     }
   }

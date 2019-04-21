@@ -8,8 +8,8 @@
   max-width: 1000px;
   width: 90%;
   margin: 20px auto;
-  padding: 10px 0px 20px 0px;
-  border-bottom: 1px solid darkblue;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px solid #15c89c;
   div {
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
       h2 {
         font-size: 20px;
         font-weight: bold;
-        color: darkgreen;
+        color: #4559ff;
       }
     }
     .right-education {
@@ -33,21 +33,24 @@
       justify-content: flex-start;
       flex-direction: column;
       .subheading {
-        div {
+        div:first-child {
           justify-content: flex-start;
           flex-direction: row;
           h4 {
-            color: darkblue;
+            color: #15c89c;
             margin-right: 3px;
           }
           p {
             margin-left: 3px;
           }
+        }
+        div {
           h6 {
-            padding-left: 100px;
+            width: 150px;
           }
         }
       }
+
       .subheading-2 {
         justify-content: flex-start;
         h5 {
@@ -66,6 +69,53 @@
   .education-container {
     div {
       font-size: 17px;
+      .right-education {
+        .subheading {
+          flex-direction: column;
+          div:nth-child(2) {
+            justify-content: flex-start;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .education-container {
+    // width: 95%;
+    border-bottom: 1px solid #ff728f;
+    margin: 10px auto;
+    div {
+      flex-direction: column;
+      .left-education {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0px;
+        h2 {
+          color: #6514ff;
+          padding-bottom: 10px;
+        }
+      }
+      .right-education {
+        .subheading {
+          display: flex;
+          div:first-child {
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-direction: row;
+            h4 {
+              color: #ff728f;
+            }
+          }
+          div {
+            h6 {
+              width: 150px;
+            }
+          }
+        }
+      }
     }
   }
 }

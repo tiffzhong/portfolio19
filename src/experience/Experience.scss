@@ -21,7 +21,7 @@
       h2 {
         font-size: 20px;
         font-weight: bold;
-        color: darkgreen;
+        color: #4559ff;
       }
     }
     .right-experience {
@@ -30,21 +30,24 @@
       flex-direction: column;
       font-size: 18px;
       .subheading {
-        div {
+        div:first-child {
           justify-content: flex-start;
           h4 {
             font-weight: bold;
-            color: darkblue;
+            color: #15c89c;
             margin-right: 3px;
           }
           p {
             margin-left: 3px;
           }
+        }
+        div {
           h6 {
-            padding-left: 100px;
+            width: 150px;
           }
         }
       }
+
       .subheading-2 {
         justify-content: flex-start;
         p {
@@ -60,6 +63,52 @@
     div {
       .right-experience {
         font-size: 17px;
+        .subheading {
+          flex-direction: column;
+          div:nth-child(2) {
+            justify-content: flex-start;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .experience-container {
+    // width: 95%;
+    margin: 10px auto;
+    div {
+      flex-direction: column;
+      align-items: center;
+      .left-experience {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-right: 0px;
+        h2 {
+          color: #6514ff;
+          padding-bottom: 10px;
+        }
+      }
+      .right-experience {
+        .subheading {
+          // align-items: flex-start;
+          // flex-direction: row;
+          div:first-child {
+            flex-direction: row;
+            h4 {
+              color: #ff728f;
+            }
+          }
+          div:nth-child(2) {
+            align-items: flex-start;
+            // justify-content: flex-start;
+          }
+        }
+        .subheading-2 {
+          align-items: flex-start;
+        }
       }
     }
   }

@@ -1,7 +1,7 @@
 footer {
   font-family: "Meera Inimai", sans-serif;
   width: 100%;
-  border-top: 10px solid darkgreen;
+  border-top: 10px solid #4559ff;
   height: 120px;
   display: flex;
   justify-content: center;
@@ -69,6 +69,12 @@ footer {
     background-size: contain;
     position: absolute;
     background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 600px) {
+  footer {
+    border-top: 10px solid #6514ff;
   }
 }
 
