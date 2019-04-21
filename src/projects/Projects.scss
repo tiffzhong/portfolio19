@@ -93,3 +93,27 @@
     }
   }
 }
+
+@media (max-width: 1000px) {
+  .project-container {
+    div {
+      .right-projects {
+        .project-image {
+          width: 210px;
+          height: 140px;
+          .project-overlay {
+            width: 210px;
+            height: 140px;
+          }
+          img {
+            width: 210px;
+            height: 140px;
+          }
+        }
+        .project-details {
+          width: 210px;
+        }
+      }
+    }
+  }
+}

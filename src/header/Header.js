@@ -37,12 +37,7 @@ const Header = props => {
             >
               <i class="fab fa-linkedin-in" />
             </a>
-            <a
-              className="email"
-              href="mailto:tiffzhong@gmail.com"
-              alt="email"
-              target="_blank"
-            >
+            <a className="email" href="mailto:tiffzhong@gmail.com" alt="email">
               <i class="far fa-envelope" />
             </a>
           </div>

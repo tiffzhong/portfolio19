@@ -37,14 +37,14 @@
           justify-content: flex-start;
           flex-direction: row;
           h4 {
-            color: darkgreen;
+            color: darkblue;
             margin-right: 3px;
           }
           p {
             margin-left: 3px;
           }
           h6 {
-            padding-left: 70px;
+            padding-left: 100px;
           }
         }
       }
@@ -58,6 +58,14 @@
         justify-content: flex-start;
         margin-bottom: 20px;
       }
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  .education-container {
+    div {
+      font-size: 17px;
     }
   }
 }

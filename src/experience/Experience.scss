@@ -17,7 +17,6 @@
       width: 160px;
       align-items: flex-start;
       justify-content: flex-end;
-
       padding-right: 20px;
       h2 {
         font-size: 20px;
@@ -35,14 +34,14 @@
           justify-content: flex-start;
           h4 {
             font-weight: bold;
-            color: darkgreen;
+            color: darkblue;
             margin-right: 3px;
           }
           p {
             margin-left: 3px;
           }
           h6 {
-            padding-left: 70px;
+            padding-left: 100px;
           }
         }
       }
@@ -51,6 +50,16 @@
         p {
           font-style: italic;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 930px) {
+  .experience-container {
+    div {
+      .right-experience {
+        font-size: 17px;
       }
     }
   }
