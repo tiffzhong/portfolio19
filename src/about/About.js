@@ -10,15 +10,17 @@ const About = () => {
         </div>
 
         <div className="right-about">
-          <p>
+          <div>
             Born and raised in the Bay Area, SJSU graduate, and self-taught
             programmer. Strong interest in full-stack development focusing on
-            well designed, clean, responsive, and scalable code. <br />A quick
-            learner, self starter, innovative, and creative. I have a love for
-            mountains, music, and movies. When I'm not coding you can find me
-            eating carbs, lifting at the gym, running, traveling, binging the
-            latest Netflix movie, or taking pictures of my cat.
-          </p>
+            well designed, clean, responsive, and scalable code.
+          </div>{" "}
+          <div>
+            A quick learner, self starter, innovative, and creative. I have a
+            love for mountains, music, and movies. When I'm not coding you can
+            find me eating carbs, lifting at the gym, running, traveling,
+            binging the latest Netflix movie, or taking pictures of my cat.
+          </div>
         </div>
       </div>
     </div>

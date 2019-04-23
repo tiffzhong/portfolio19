@@ -22,7 +22,7 @@ const Experience = () => {
           <div className="subheading-2">
             <p>Facilities Coordinator</p>
           </div>
-          <div>
+          <div className="body-text">
             <ul>
               <li>
                 • Handled the Ergonomics program by creating a new policy,
