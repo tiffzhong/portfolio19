@@ -387,7 +387,8 @@ class Projects extends Component {
                       : "project-details"
                   }
                 >
-                  <h5>Taste of Burma</h5>
+                  <h5>The Purple Tulip</h5>
+
                   <p>Front End</p>
                   {this.state.TPTtoggle ? (
                     <div
