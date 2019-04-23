@@ -43,7 +43,7 @@ export default class TOBImages extends React.Component {
 
   render() {
     return (
-      <div className="carousel">
+      <div style={{ flexDirection: "row" }} className="carousel">
         <Arrow
           direction="left"
           clickFunction={this.previousSlide}

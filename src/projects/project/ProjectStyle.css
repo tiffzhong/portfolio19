@@ -1,6 +1,7 @@
 .carousel {
   display: flex;
   align-items: center;
+
   /* height: 100%;
   margin: 0;
   width: 100%;
@@ -18,25 +19,10 @@
 .slide-arrow:hover {
   color: lightgray;
 }
-/* .image-slide {
-  display: flex;
-  height: 100%;
-  width: 100%;
-  transition: background-image 0.3s ease-in-out;
+@media (max-width: 600px) {
+  .image-slide {
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+  }
 }
-
-.slide-arrow {
-  color: green;
-  cursor: pointer;
-  font-size: 2rem;
-  position: fixed;
-  top: 50%;
-}
-
-.slide-arrow.right {
-  right: 1rem;
-}
-
-.slide-arrow.left {
-  left: 1rem;
-} */
