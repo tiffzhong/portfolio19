@@ -50,11 +50,39 @@ class Projects extends Component {
           <div className="right-projects">
             <div className="single-project-container">
               <div className="project-image">
-                <div className="project-overlay" />
+                <div
+                  className={
+                    this.state.COtoggle
+                      ? "project-overlay-on"
+                      : "project-overlay"
+                  }
+                />
                 <img src={carry} alt="carryon" />
-                <div onClick={this.COtoggler} className="project-details">
+                <div
+                  onClick={this.COtoggler}
+                  className={
+                    this.state.COtoggle
+                      ? "project-details-on"
+                      : "project-details"
+                  }
+                >
                   <h5>Carry On</h5>
                   <p>Full Stack</p>
+                  {this.state.COtoggle ? (
+                    <div
+                      className="close-button-on"
+                      style={{ alignItems: "center" }}
+                    >
+                      <i class="fas fa-chevron-up" />
+                    </div>
+                  ) : (
+                    <div
+                      className="close-button"
+                      style={{ alignItems: "center" }}
+                    >
+                      <i class="fas fa-chevron-down" />
+                    </div>
+                  )}
                 </div>
               </div>
               <div
@@ -105,11 +133,39 @@ class Projects extends Component {
 
             <div className="single-project-container">
               <div className="project-image">
-                <div className="project-overlay" />
+                <div
+                  className={
+                    this.state.TRtoggle
+                      ? "project-overlay-on"
+                      : "project-overlay"
+                  }
+                />
                 <img src={tr} alt="tr" />
-                <div onClick={this.TRtoggler} className="project-details">
+                <div
+                  onClick={this.TRtoggler}
+                  className={
+                    this.state.TRtoggle
+                      ? "project-details-on"
+                      : "project-details"
+                  }
+                >
                   <h5>Task Rabbit Clone</h5>
                   <p>Full Stack</p>
+                  {this.state.TRtoggle ? (
+                    <div
+                      className="close-button-on"
+                      style={{ alignItems: "center" }}
+                    >
+                      <i class="fas fa-chevron-up" />
+                    </div>
+                  ) : (
+                    <div
+                      className="close-button"
+                      style={{ alignItems: "center" }}
+                    >
+                      <i class="fas fa-chevron-down" />
+                    </div>
+                  )}
                 </div>
               </div>
               <div
@@ -157,13 +213,42 @@ class Projects extends Component {
             </div>
 
             {/* SOUR FLOUR */}
+
             <div className="single-project-container">
               <div className="project-image">
-                <div className="project-overlay" />
-                <img src={bread} alt="bread" />
-                <div onClick={this.SFtoggler} className="project-details">
+                <div
+                  className={
+                    this.state.SFtoggle
+                      ? "project-overlay-on"
+                      : "project-overlay"
+                  }
+                />
+                <img src={bread} alt="SF" />
+                <div
+                  onClick={this.SFtoggler}
+                  className={
+                    this.state.SFtoggle
+                      ? "project-details-on"
+                      : "project-details"
+                  }
+                >
                   <h5>Sour Flour</h5>
                   <p>Front End</p>
+                  {this.state.SFtoggle ? (
+                    <div
+                      className="close-button-on"
+                      style={{ alignItems: "center" }}
+                    >
+                      <i class="fas fa-chevron-up" />
+                    </div>
+                  ) : (
+                    <div
+                      className="close-button"
+                      style={{ alignItems: "center" }}
+                    >
+                      <i class="fas fa-chevron-down" />
+                    </div>
+                  )}
                 </div>
               </div>
               <div
@@ -208,11 +293,39 @@ class Projects extends Component {
 
             <div className="single-project-container">
               <div className="project-image">
-                <div className="project-overlay" />
-                <img src={tob} alt="tob" />
-                <div onClick={this.TOBtoggler} className="project-details">
+                <div
+                  className={
+                    this.state.TOBtoggle
+                      ? "project-overlay-on"
+                      : "project-overlay"
+                  }
+                />
+                <img src={tob} alt="TOB" />
+                <div
+                  onClick={this.TOBtoggler}
+                  className={
+                    this.state.TOBtoggle
+                      ? "project-details-on"
+                      : "project-details"
+                  }
+                >
                   <h5>Taste of Burma</h5>
                   <p>Front End</p>
+                  {this.state.TOBtoggle ? (
+                    <div
+                      className="close-button-on"
+                      style={{ alignItems: "center" }}
+                    >
+                      <i class="fas fa-chevron-up" />
+                    </div>
+                  ) : (
+                    <div
+                      className="close-button"
+                      style={{ alignItems: "center" }}
+                    >
+                      <i class="fas fa-chevron-down" />
+                    </div>
+                  )}
                 </div>
               </div>
               <div
@@ -258,11 +371,39 @@ class Projects extends Component {
 
             <div className="single-project-container">
               <div className="project-image">
-                <div className="project-overlay" />
-                <img src={tpt} alt="tpt" />
-                <div onClick={this.TPTtoggler} className="project-details">
-                  <h5>The Purple Tulip</h5>
+                <div
+                  className={
+                    this.state.TPTtoggle
+                      ? "project-overlay-on"
+                      : "project-overlay"
+                  }
+                />
+                <img src={tpt} alt="TPT" />
+                <div
+                  onClick={this.TPTtoggler}
+                  className={
+                    this.state.TPTtoggle
+                      ? "project-details-on"
+                      : "project-details"
+                  }
+                >
+                  <h5>Taste of Burma</h5>
                   <p>Front End</p>
+                  {this.state.TPTtoggle ? (
+                    <div
+                      className="close-button-on"
+                      style={{ alignItems: "center" }}
+                    >
+                      <i class="fas fa-chevron-up" />
+                    </div>
+                  ) : (
+                    <div
+                      className="close-button"
+                      style={{ alignItems: "center" }}
+                    >
+                      <i class="fas fa-chevron-down" />
+                    </div>
+                  )}
                 </div>
               </div>
               <div
@@ -292,10 +433,6 @@ class Projects extends Component {
                 </div>
                 <TPTImages />
                 <div className="project-links">
-                  <a href="https://tasteofburma.netlify.com/" target="_blank">
-                    Visit Site
-                  </a>
-
                   <a
                     href="https://github.com/tiffzhong/tasteofburma"
                     target="_blank"
