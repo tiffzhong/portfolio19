@@ -1,10 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import "../ProjectStyle.css";
 const imgUrls = [
-  "https://i.imgur.com/AJX59Ra.png",
-  "https://i.imgur.com/YncGU7e.png",
-  "https://i.imgur.com/m9SOK3C.png",
-  "https://i.imgur.com/VRMJDPW.png"
+  "https://i.ibb.co/RjrGxfn/AJX59Ra.png",
+  "https://i.ibb.co/dryCDRf/YncGU7e.png",
+  "https://i.ibb.co/Y3tS3F9/VRMJDPW.png",
+  "https://i.ibb.co/6Z0zpw0/m9SOK3C.png"
 ];
 
 export default class TRImages extends React.Component {

@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import "../ProjectStyle.css";
 const imgUrls = [
-  "https://i.imgur.com/AiWHyIu.jpg",
-  "https://i.imgur.com/j6tMd53.jpg",
-  "https://i.imgur.com/Mu1dp0A.jpg"
+  "https://i.ibb.co/wcG33ZM/j6tMd53.jpg",
+  "https://i.ibb.co/W0H8zLC/Mu1dp0A.jpg",
+  "https://i.ibb.co/NK6wCbg/AiWHyIu.jpg"
 ];
 
 export default class TOBImages extends React.Component {

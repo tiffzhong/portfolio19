@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React from "react";
 import "../ProjectStyle.css";
 const imgUrls = [
-  "https://i.imgur.com/9pYImrp.jpg",
-  "https://i.imgur.com/jlliLMv.png",
-  "https://i.imgur.com/ajT4Wmk.jpg"
+  "https://i.ibb.co/R9W0NLM/9pYImrp.jpg",
+  "https://i.ibb.co/bL0hT1g/ajT4Wmk.jpg",
+  "https://i.ibb.co/y61kg8T/jlliLMv.png"
 ];
 
 export default class SFImages extends React.Component {

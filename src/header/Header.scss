@@ -15,9 +15,7 @@
   .content-container {
     display: flex;
     justify-content: space-between;
-
     flex-direction: row;
-    // width: 950px;
     width: 95%;
     padding: 20px;
     div {
@@ -30,7 +28,6 @@
           max-width: 100%;
           object-fit: cover;
           border-radius: 10px;
-          // padding: 20px;
         }
       }
       .name-container {
@@ -45,8 +42,6 @@
           margin: 0;
           font-weight: bold;
           color: white;
-
-          // text-align: right;
         }
         p {
           margin: 0;
@@ -58,7 +53,6 @@
       .city-location {
         display: flex;
         align-items: flex-start;
-        // align-items: flex-end;
         margin-top: 5px;
         i {
           color: white;
@@ -118,7 +112,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .header-container {
     background: url("../images/glac.jpg");
     object-fit: cover;
@@ -147,11 +141,10 @@
   }
 }
 
-@media (max-width: 690px) {
+@media (max-width: 850px) {
   .header-container {
     height: 25%;
     background: url("../images/pata.jpg");
-
     object-fit: cover;
     overflow: hidden;
     background-size: cover;
@@ -184,7 +177,6 @@
           }
           p {
             display: flex;
-            // justify-content: center;
             align-items: center;
             margin-left: 5px;
             color: black;
@@ -195,7 +187,6 @@
 
       .links-container {
         a {
-          // margin: 5px;
           width: 45px;
           height: 45px;
         }
@@ -211,7 +202,7 @@
 @media (max-width: 600px) {
   .header-container {
     height: 25%;
-    background: url("../images/fuji.png");
+    background: url("../images/fuji.jpg");
     object-fit: cover;
     overflow: hidden;
     background-size: cover;
@@ -219,7 +210,6 @@
     border-bottom: 10px solid #ff728f;
     .content-container {
       flex-direction: column;
-      // justify-content: center;
       align-items: center;
       padding: 0px;
 
