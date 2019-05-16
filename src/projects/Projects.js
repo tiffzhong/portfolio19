@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import "./Projects.scss";
-import carry from "../images/carry.png";
-import tr from "../images/tr.png";
-import tob from "../images/TOB.png";
-import bread from "../images/sf.png";
-import tpt from "../images/tpt.png";
+import carry from "../images/carry.jpg";
+import tr from "../images/tr.jpg";
+import tob from "../images/TOB.jpg";
+import bread from "../images/sf.jpg";
+import tpt from "../images/tpt.jpg";
 import COImages from "./project/carryon/carryon";
 import TRImages from "./project/taskr/taskr";
 import SFImages from "./project/sourf/sourf";
