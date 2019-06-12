@@ -14,14 +14,14 @@ const About = () => {
             Born and raised in the Bay Area, first generation Asian American,
             SJSU graduate, and self-taught programmer. I am passionate about
             building tools to make people move faster, live easier and work more
-            efficiently. Strong interest in full-stack development focusing on
-            well designed, clean, responsive, and scalable code.
+            efficiently. A quick learner, self starter, innovative, and
+            creative.
           </div>
           <div>
-            A quick learner, self starter, innovative, and creative. I have a
-            love for mountains, music, and movies. When I'm not coding you can
-            find me eating carbs, at the gym, running, traveling, binging the
-            latest Netflix series, or taking pictures of my cat.
+            I have a love for mountains, music, and movies. When I'm not on a
+            computer you can find me eating carbs, at the gym, running,
+            traveling, vlogging, binging the latest Netflix series, or taking
+            pictures of my cat.
           </div>
         </div>
       </div>

@@ -388,8 +388,7 @@ class Projects extends Component {
                   }
                 >
                   <h5>The Purple Tulip</h5>
-
-                  <p>Front End</p>
+                  <p>Full Stack</p>
                   {this.state.TPTtoggle ? (
                     <div
                       className="close-button-on"
@@ -414,21 +413,22 @@ class Projects extends Component {
               >
                 <div className="proj-header">
                   <h5>The Purple Tulip</h5>
-                  <p>Front End Static Website</p>
+                  <p>Full Stack</p>
                 </div>
                 <div className="text-containers">
                   <div className="proj-description">
                     <h6>Description:</h6>
                     <p>
-                      Florist portfolio site showcasing client's past work,
-                      events, and pieces.
+                      Florist portfolio site showcasing client's floral work.
+                      Admin is able to add to thier gallery by posting photos
+                      and descriptions of each flower piece.
                     </p>
                   </div>
                   <div className="tech-used">
                     <h6>Technologies Used:</h6>
                     <p>
-                      React, SCSS, Nodemailer, Instagram API. Responsive design
-                      on desktop & mobile.
+                      React, Redux, Node, PostgreSQL, Bcrypt, SCSS, Nodemailer,
+                      Instagram API.
                     </p>
                   </div>
                 </div>
