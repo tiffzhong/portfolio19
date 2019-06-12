@@ -2,7 +2,7 @@ import React from "react";
 import "../ProjectStyle.css";
 const imgUrls = [
   "https://i.ibb.co/wcG33ZM/j6tMd53.jpg",
-  "https://i.ibb.co/W0H8zLC/Mu1dp0A.jpg",
+  "https://i.ibb.co/x27s4Jr/Screen-Shot-2019-06-11-at-9-29-23-PM-2.png",
   "https://i.ibb.co/NK6wCbg/AiWHyIu.jpg"
 ];
 
